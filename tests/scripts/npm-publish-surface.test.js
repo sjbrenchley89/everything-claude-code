@@ -46,7 +46,7 @@ function buildExpectedPublishPaths(repoRoot) {
     "scripts/ci/scan-supply-chain-iocs.js",
     "scripts/ci/supply-chain-advisory-sources.js",
     "scripts/consult.js",
-    "scripts/claw.js",
+    "scripts/control-pane.js",
     "scripts/discussion-audit.js",
     "scripts/doctor.js",
     "scripts/status.js",
@@ -65,7 +65,6 @@ function buildExpectedPublishPaths(repoRoot) {
     "scripts/skill-create-output.js",
     "scripts/repair.js",
     "scripts/harness-adapter-compliance.js",
-    "scripts/harness-audit.js",
     "scripts/session-inspect.js",
     "scripts/uninstall.js",
     "scripts/gemini-adapt-agents.js",
@@ -78,6 +77,8 @@ function buildExpectedPublishPaths(repoRoot) {
     "schemas",
     "agent.yaml",
     "VERSION",
+    "assets/ecc-icon.svg",
+    "assets/hero.png",
   ]
   const exclusionPaths = [
     "!**/__pycache__/**",
@@ -130,6 +131,7 @@ function main() {
         "scripts/ci/scan-supply-chain-iocs.js",
         "scripts/ci/supply-chain-advisory-sources.js",
         "scripts/consult.js",
+        "scripts/control-pane.js",
         "scripts/discussion-audit.js",
         "scripts/operator-readiness-dashboard.js",
         "scripts/preview-pack-smoke.js",
@@ -141,6 +143,8 @@ function main() {
         ".qwen/QWEN.md",
         ".claude-plugin/plugin.json",
         ".codex-plugin/plugin.json",
+        "assets/ecc-icon.svg",
+        "assets/hero.png",
         "schemas/install-state.schema.json",
         "skills/backend-patterns/SKILL.md",
       ]) {
